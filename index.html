@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/background.js" defer></script>
+    <script src="js/clock.js" defer></script>
+    <script src="js/todoform.js" defer></script>
+    <script src="js/weather.js" defer></script>
+    <script src="js/quote.js" defer></script>
+    <script src="js/login.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <form id="login">
+        <input type="text" placeholder="Enter your name." required maxlength="15">
+        <input type="button" value="Login" class="submit-form"></input>
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
+    <h2 id="clock" class="clock-font">00 : 00 : 00</h2>
+    <div id="quote" class="quote-font">
+        <span></span>
+        <span></span>
+    </div>
+    <div id="weather" class="weather-font">
+        <span></span>
+        <span></span>
+    </div>
+    <form id="todo-form">
+        <input type="text" placeholder="Enter your to do list" required>
+    </form>
+    <ul id="todo-list"></ul>
+    <div class="background-cover"></div>
+</body>
+</html>
